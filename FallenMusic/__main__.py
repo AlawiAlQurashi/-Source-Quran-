@@ -62,13 +62,13 @@ f"✯ ᯓ𝐘𝐄 ||✘𝐔𝐏𝐏𝐄𝐑 •🇾🇪⇩𓄹ᴍᴜsɪᴄ ʙᴏ
         )
     except:
         LOGGER.error(
-            f"{BOT_NAME} failed to send message at @{SUNAME}, please go & check."
+            f"{BOT_NAME} failed to send message at @{ᯓ𝐘𝐄 ||✘𝐔𝐏𝐏𝐄𝐑 •🇾🇪⇩𓄹}, please go & check."
         )
 
     try:
         await app2.send_message(
             SUNAME,
-            f"✯𝐘𝐄 ||✘𝐔𝐏𝐏𝐄𝐑 ᴍᴜsɪᴄ ᴀss ✯\n\n𖢵 ɪᴅ : {ASS_ID}\n𖢵 ɴᴀᴍᴇ : {ASS_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{UPE3R}",
+            f"✯𝐘𝐄 ||✘𝐔𝐏𝐏𝐄𝐑 ᴍᴜsɪᴄ ᴀss ✯\n\n𖢵 ɪᴅ : {6250435647}\n𖢵 ɴᴀᴍᴇ : {ASS_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{UPE3R}",
         )
     except:
         LOGGER.error(
