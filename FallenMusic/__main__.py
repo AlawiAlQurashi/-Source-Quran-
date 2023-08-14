@@ -58,7 +58,7 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"✯ ڪࢪستيڼ ᴍᴜsɪᴄ ʙᴏᴛ ✯\n\n𖢵 ɪᴅ : `{BOT_ID}`\n𖢵 ɴᴀᴍᴇ : {BOT_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{BOT_USERNAME}",
+f"✯ ᯓ𝐘𝐄 ||✘𝐔𝐏𝐏𝐄𝐑 •🇾🇪⇩𓄹ᴍᴜsɪᴄ ʙᴏᴛ ✯\n\n𖢵 ɪᴅ : {6207563016}\n𖢵 ɴᴀᴍᴇ : {📖بوت القران الڪــريم 📖}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{Q3uranbot}",
         )
     except:
         LOGGER.error(
@@ -68,17 +68,17 @@ async def fallen_startup():
     try:
         await app2.send_message(
             SUNAME,
-            f"✯ ڪࢪستيڼ ᴍᴜsɪᴄ ᴀss ✯\n\n𖢵 ɪᴅ : `{ASS_ID}`\n𖢵 ɴᴀᴍᴇ : {ASS_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{ASS_USERNAME}",
+            f"✯𝐘𝐄 ||✘𝐔𝐏𝐏𝐄𝐑 ᴍᴜsɪᴄ ᴀss ✯\n\n𖢵 ɪᴅ : {ASS_ID}\n𖢵 ɴᴀᴍᴇ : {ASS_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{UPE3R}",
         )
     except:
         LOGGER.error(
-            f"{ASS_NAME} failed to send message at @{SUNAME}, please go & check."
+            f"{ᯓ𝐘𝐄 ||✘𝐔𝐏𝐏𝐄𝐑 •🇾🇪⇩𓄹} failed to send message at @{SUNAME}, please go & check."
         )
 
-    await app2.send_message(BOT_USERNAME, "/start")
+    await app2.send_message(@Q3uranbot, "/start")
 
-    LOGGER.info(f"[•] Bot Started As {BOT_NAME}.")
-    LOGGER.info(f"[•] Assistant Started As {ASS_NAME}.")
+    LOGGER.info(f"[•] Bot Started As {📖بوت القران الڪــريم 📖}.")
+    LOGGER.info(f"[•] Assistant Started As {ᯓ𝐘𝐄 ||✘𝐔𝐏𝐏𝐄𝐑 •🇾🇪⇩𓄹}.")
 
     LOGGER.info(
         "[•] \x53\x74\x61\x72\x74\x69\x6e\x67\x20\x50\x79\x54\x67\x43\x61\x6c\x6c\x73\x20\x43\x6c\x69\x65\x6e\x74\x2e\x2e\x2e"
@@ -87,6 +87,6 @@ async def fallen_startup():
     await idle()
 
 
-if __name__ == "__main__":
+if name == "main":
     asyncio.get_event_loop().run_until_complete(fallen_startup())
     LOGGER.error("Fallen Music Bot Stopped.")
